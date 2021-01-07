@@ -11,5 +11,6 @@ pip3 install pymongo
 To run:
 ```
 export FLASK_APP=app.py
+export FLASK_ENV=development
 flask run
 ```
