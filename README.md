@@ -1,1 +1,15 @@
-Just some example code. Check out the [blog post](https://realpython.com/blog/python/introduction-to-mongodb-and-python/) for more info.
+Using environment vars for password (see .env)
+
+Installed:
+```shell
+pip3 install python-dotenv
+pip3 install dnspython
+pip3 install mongoengine
+pip3 install pymongo
+```
+
+To run:
+```
+export FLASK_APP=app.py
+flask run
+```
